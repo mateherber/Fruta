@@ -11,7 +11,7 @@
           "locale" : "en_US"
         }
       ],
-      "productID" : "com.example.apple-samplecode.fruta.unlock-recipes",
+      "productID" : "io.bitrise.cliptest.fruta.unlock-recipes",
       "referenceName" : "Unlock All Recipes",
       "type" : "NonConsumable"
     }

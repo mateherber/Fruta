@@ -38,7 +38,7 @@ class Store: NSObject, ObservableObject {
 // MARK: - Store API
 
 extension Store {
-    static let unlockAllRecipesIdentifier = "com.example.apple-samplecode.fruta.unlock-recipes"
+    static let unlockAllRecipesIdentifier = "io.bitrise.cliptest.fruta.unlock-recipes"
     
     func product(for identifier: String) -> SKProduct? {
         return fetchedProducts.first(where: { $0.productIdentifier == identifier })

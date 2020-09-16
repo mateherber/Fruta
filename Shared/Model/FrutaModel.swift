@@ -24,7 +24,7 @@ class FrutaModel: ObservableObject {
         #endif
     }
     
-    let defaults = UserDefaults(suiteName: "group.example.fruta")
+    let defaults = UserDefaults(suiteName: "group.io.bitrise.cliptest.fruta")
     
     private var userCredential: String? {
         get { defaults?.string(forKey: "UserCredential") }
